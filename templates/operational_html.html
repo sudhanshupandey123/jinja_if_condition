@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operational_Tag</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        #first{
+            background-color: lightcoral;
+            color: black;
+            border: 2px solid black;
+        }
+        #second{
+            background-color: cornflowerblue;
+            color: black;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div id="first">
+            <marquee><h1>Welcome to Jinja Operational Tag (Conditional Operation - If)</h1></marquee>
+        </div>
+        <div id="second">
+            {% if age > 20 %}
+                <h1>Name of Candidate : {{name}} </h1>
+                <h1>He is Elligible to Apply </h1>
+            {% endif %}
+        </div>
+    </center>
+</body>
+</html>
